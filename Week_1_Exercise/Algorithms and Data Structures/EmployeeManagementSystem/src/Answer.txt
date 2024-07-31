@@ -1,0 +1,32 @@
+1.Understand Array Representation:
+
+Q.Explain how arrays are represented in memory and their advantages.
+A:Arrays in Java are a data structure consisting of a collection of elements, each identified by an array index. They are represented in memory as a contiguous block of memory locations, where each element is stored next to the other.
+Advantages of Arrays
+Constant Time Access: Due to contiguous memory allocation, accessing any element by its index is very fast.
+Cache Friendly: Sequential allocation makes arrays cache-friendly, improving performance during iteration.
+Simple Data Structure: Arrays are simple and easy to understand and use.
+
+4.Analysis:
+Q.Analyze the time complexity of each operation (add, search, traverse, delete).
+A:Add Operation:
+Time Complexity: O(1) (Amortized, because of potential resizing of the array)
+Search Operation:
+Time Complexity: O(n) (Linear search in the worst case)
+Traverse Operation:
+Time Complexity: O(n) (Visiting each element once)
+Delete Operation:
+Time Complexity: O(n) (Finding the element can take O(n), and deleting it involves shifting elements, which also takes O(n) in the worst case)
+
+
+Q.Discuss the limitations of arrays and when to use them.
+A:Limitations of Arrays
+
+Fixed Size: Once an array is created, its size cannot be changed. If more elements need to be added beyond its capacity, a new, larger array must be created and the existing elements copied over.
+Inefficient Deletions/Insertions: Deleting or inserting elements in the middle of the array requires shifting elements, which is inefficient (O(n)).
+Sequential Storage: Requires contiguous memory locations, which can be an issue if large arrays are needed.
+
+When to Use Arrays
+When constant time access is needed: Arrays are ideal for scenarios where quick access to elements by index is essential.
+When the size of the data is known and fixed: If the number of elements to be stored is known in advance and does not change, arrays are a good choice.
+

@@ -1,0 +1,13 @@
+Understand Recursive Algorithms:
+Q.Explain the concept of recursion and how it can simplify certain problems.
+A:Recursion is a technique in computer science where a function calls itself directly or indirectly in order to solve a problem. Each recursive call works on a smaller instance of the problem, breaking it down until it reaches the base case, which is a simple instance of the problem that can be solved directly without further recursion.
+Base Case: The simplest instance of the problem which can be solved directly.
+Recursive Case: The part where the function calls itself to solve smaller instances of the problem.
+
+Analysis:
+Q.Discuss the time complexity of your recursive algorithm.
+A:Time Complexity: O(n), where n is the number of years. Each recursive call reduces the problem size by 1 year until it reaches 0.
+
+Q.Explain how to optimize the recursive solution to avoid excessive computation.
+A:An iterative approach can also be used to optimize the space complexity, reducing it from O(n) to O(1)
+

@@ -1,0 +1,28 @@
+Understand Linked Lists:
+Q.Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+A:Singly Linked List -
+Structure: Each node contains data and a reference (or pointer) to the next node in the sequence.
+Direction: Traversal is unidirectional, i.e., from the head node to the last node.
+Operations: Operations like insertion and deletion are straightforward if the node reference is known, but accessing an element by index is O(n).
+Doubly Linked List -
+Structure: Each node contains data, a reference to the next node, and a reference to the previous node.
+Direction: Traversal is bidirectional, i.e., from head to tail and from tail to head.
+Operations: Easier to traverse backward and perform deletions without needing a reference to the previous node.
+
+Analysis:
+Q.Analyze the time complexity of each operation.
+Add Operation:
+Time Complexity: O(n) (Finding the end of the list takes O(n) in the worst case)
+Search Operation:
+Time Complexity: O(n) (Linear search in the worst case)
+Traverse Operation:
+Time Complexity: O(n) (Visiting each node once)
+Delete Operation:
+Time Complexity: O(n) (Finding the node to delete takes O(n), and updating pointers is O(1))
+
+
+Q.Discuss the advantages of linked lists over arrays for dynamic data.
+A:Dynamic Size: Linked lists can grow and shrink dynamically, allowing efficient use of memory.
+Efficient Insertions/Deletions: Insertions and deletions are efficient and do not require shifting elements, unlike arrays.
+No Contiguous Memory Requirement: Linked lists do not require a contiguous block of memory, which can be beneficial for large datasets
+

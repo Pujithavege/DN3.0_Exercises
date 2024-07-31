@@ -1,0 +1,53 @@
+1.
+Understand Sorting Algorithms:
+Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+A:Bubble Sort
+
+Description: Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process is repeated until the list is sorted.
+Time Complexity:
+Best-case: O(n) (already sorted)
+Average-case: O(n^2)
+Worst-case: O(n^2)
+Insertion Sort
+
+Description: Insertion Sort builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms like quicksort, heapsort, or merge sort.
+Time Complexity:
+Best-case: O(n) (already sorted)
+Average-case: O(n^2)
+Worst-case: O(n^2)
+Quick Sort
+
+Description: Quick Sort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+Time Complexity:
+Best-case: O(n log n)
+Average-case: O(n log n)
+Worst-case: O(n^2) (poor pivot choices)
+Merge Sort
+
+Description: Merge Sort is also a divide-and-conquer algorithm. It divides the array into two halves, recursively sorts them, and then merges the sorted halves.
+Time Complexity:
+Best-case: O(n log n)
+Average-case: O(n log n)
+Worst-case: O(n log n)
+
+
+4.Analysis:
+Compare the performance (time complexity) of Bubble Sort and Quick Sort.
+A:Bubble Sort:
+Best-case: O(n)
+Average-case: O(n^2)
+Worst-case: O(n^2)
+Quick Sort:
+Best-case: O(n log n)
+Average-case: O(n log n)
+Worst-case: O(n^2)
+Comparison
+
+Bubble Sort is simple but inefficient for large datasets due to its O(n^2) average and worst-case time complexity.
+Quick Sort is generally much faster than Bubble Sort for large datasets due to its O(n log n) average-case time complexity, despite having a worst-case time complexity of O(n^2) (which can be mitigated with good pivot selection strategies like using the median-of-three rule).
+
+Discuss why Quick Sort is generally preferred over Bubble Sort.
+A:Quick Sort typically outperforms Bubble Sort in practical scenarios because its average-case time complexity is O(n log n), which scales much better with large datasets compared to Bubble Sort’s O(n^2). Even though Quick Sort has a worst-case time complexity of O(n^2), this can be mitigated by using good pivot selection strategies, such as the median-of-three rule.
+Adaptability: Quick Sort can be easily adapted to different data structures and types, making it more versatile. For example, it can be modified to work on linked lists, arrays, and more.
+
+

@@ -1,0 +1,34 @@
+1.Understand Search Algorithms:
+Q.Explain linear search and binary search algorithms.
+A:Linear Search
+
+Algorithm: Linear search iterates through each element in the list until the desired element is found or the end of the list is reached.
+Time Complexity: O(n) in the worst case, where n is the number of elements in the list.
+Use Case: Suitable for small or unsorted datasets.
+Binary Search
+
+Algorithm: Binary search works on sorted lists by repeatedly dividing the search interval in half. If the target value is less than the middle element, the search continues in the lower half; otherwise, it continues in the upper half.
+Time Complexity: O(log n) in the worst case, where n is the number of elements in the list.
+Use Case: Suitable for large, sorted datasets.
+
+
+Analysis:
+Q.Compare the time complexity of linear and binary search.
+A:Linear Search:
+Time Complexity: O(n)
+Best suited for small or unsorted datasets.
+Binary Search:
+Time Complexity: O(log n)
+Requires the dataset to be sorted.
+Best suited for large, sorted datasets.
+
+
+Q.Discuss when to use each algorithm based on the data set size and order.
+A:Linear Search:
+Use when the dataset is small or unsorted.
+Simplicity: Easy to implement and does not require preprocessing (sorting).
+Binary Search:
+Use when the dataset is large and sorted.
+Efficiency: Much faster than linear search for large datasets due to its logarithmic time complexity.
+Sorting Overhead: Requires the dataset to be sorted, which has its own time complexity (O(n log n) for efficient sorting algorithms).
+

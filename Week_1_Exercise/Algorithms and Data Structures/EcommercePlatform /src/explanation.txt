@@ -1,0 +1,25 @@
+1.Understand Asymptotic Notation:
+Explain Big O notation and how it helps in analyzing algorithms.
+A:Big O Notation:Big O notation is a mathematical notation used to describe the upper bound of an algorithm's runtime or space requirements in terms of the input size. It helps in understanding the worst-case scenario of an algorithm, providing insights into its efficiency.
+
+Describe the best, average, and worst-case scenarios for search operations.
+A:Best-case: The minimum time required for the algorithm to complete.
+Average-case: The expected time required for the algorithm to complete, averaged over all possible inputs.
+Worst-case: The maximum time required for the algorithm to complete.
+
+4.Analysis:
+Compare the time complexity of linear and binary search algorithms.
+Linear Search: O(n)
+Best-case: O(1) (target is the first element)
+Average-case: O(n/2)
+Worst-case: O(n) (target is the last element or not present)
+Binary Search: O(log n)
+Best-case: O(1) (target is the middle element)
+Average-case: O(log n)
+Worst-case: O(log n) (target is not present)
+
+
+Discuss which algorithm is more suitable for your platform and why.
+A:Given the need for optimized performance in an e-commerce platform, binary search is generally more suitable due to its logarithmic time complexity, especially for large datasets.
+ 
+
